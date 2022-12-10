@@ -1,0 +1,26 @@
+*
+!.gitignore
+#Quartus / VHDL
+!*.vhd
+!*.qpf
+!*.qsf
+!*.stp
+!*.sdc
+#Doc
+!*.pdf
+!*.docx
+#Markdown
+!.md
+#Include all folders named img
+!/**/img/**
+#Wavedrom
+!*.json
+!*/
+.vscode
+**/db/**
+#NIOS
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+*_bsp
